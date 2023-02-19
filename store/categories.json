@@ -1,0 +1,56 @@
+[
+  {
+    "model": "products.category",
+    "pk": 1,
+    "fields": {
+      "name": "Синие драгоценные камни",
+      "descrition": "Драгоценности синего цвета",
+      "image": "category_images/Sinii-category.jpg"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 2,
+    "fields": {
+      "name": "Красные драгоценные камни",
+      "descrition": "Драгоценности красного цвета",
+      "image": "category_images/krasnii-category.png"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 3,
+    "fields": {
+      "name": "Зеленые драгоценные камни",
+      "descrition": "Драгоценности зеленого цвета",
+      "image": "category_images/Zelenyy-category.jpg"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 4,
+    "fields": {
+      "name": "Фиолетовые драгоценные камни",
+      "descrition": "Драгоценности фиолетового цвета",
+      "image": "category_images/fioletoviy-category.png"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 6,
+    "fields": {
+      "name": "Желтые драгоценные камни",
+      "descrition": "Драгоценности желтогоцвета",
+      "image": "category_images/yellow-category.png"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 10,
+    "fields": {
+      "name": "Драгоценности из майнкрафт",
+      "descrition": "Драгоценности из майнкрафт",
+      "image": "category_images/minecraft-category.jpg"
+    }
+  }
+]

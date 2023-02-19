@@ -1,10 +1,13 @@
+
 body {
-    background: url("../img/bg4.webp") no-repeat center fixed;
+    background: url("../img/bg.jpg") no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
+
+
 
 
 .box {

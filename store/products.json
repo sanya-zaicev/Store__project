@@ -1,0 +1,218 @@
+[
+  {
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+      "name": "Синяя шпинель",
+      "description": "Синяя шпинель",
+      "price": "1.00",
+      "amount": 1,
+      "image": "images/shnipel-siniy.jpg",
+      "category": 1
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+      "name": "Сапфир",
+      "description": "Сапфир",
+      "price": "0.01",
+      "amount": 1,
+      "image": "images/Saphir-ciniy_s8PLP65.png",
+      "category": 1
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+      "name": "Лазурит",
+      "description": "Лазурит",
+      "price": "0.01",
+      "amount": 1,
+      "image": "images/lazurit-ciniy_2XC0jDf.jpg",
+      "category": 1
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+      "name": "Рубин",
+      "description": "Рубин",
+      "price": "0.01",
+      "amount": 1,
+      "image": "images/rubin-red.jpg",
+      "category": 2
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+      "name": "Гранат",
+      "description": "Гранат",
+      "price": "0.01",
+      "amount": 1,
+      "image": "images/granat-red.jpg",
+      "category": 2
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 6,
+    "fields": {
+      "name": "Рубелит",
+      "description": "Рубелит",
+      "price": "0.01",
+      "amount": 1,
+      "image": "images/Rubellit-red.webp",
+      "category": 2
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 7,
+    "fields": {
+      "name": "Зеленый алмаз",
+      "description": "Зеленый алмаз",
+      "price": "0.01",
+      "amount": 1,
+      "image": "images/Diamond-Green.jpg",
+      "category": 3
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 8,
+    "fields": {
+      "name": "Изумруд",
+      "description": "Изумруд",
+      "price": "0.01",
+      "amount": 1,
+      "image": "images/esmerald-green.jpg",
+      "category": 3
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 9,
+    "fields": {
+      "name": "Демантоид",
+      "description": "Демантоид",
+      "price": "0.01",
+      "amount": 1,
+      "image": "images/demantoid-green.jpg",
+      "category": 3
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 11,
+    "fields": {
+      "name": "Сугилит",
+      "description": "Сугилит",
+      "price": "0.01",
+      "amount": 1,
+      "image": "images/sugilit-purple.jpg",
+      "category": 4
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 12,
+    "fields": {
+      "name": "Александрит",
+      "description": "Александрит",
+      "price": "0.01",
+      "amount": 1,
+      "image": "images/aleksandrit-purple.jpg",
+      "category": 4
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 13,
+    "fields": {
+      "name": "Алмаз из майнкрафта",
+      "description": "Алмаз из майнкрафта",
+      "price": "0.01",
+      "amount": 1,
+      "image": "images/almaz-minecraft_kA2vjEW.webp",
+      "category": 10
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 14,
+    "fields": {
+      "name": "Изумруд из майнкрафта",
+      "description": "Изумруд из майнкрафта",
+      "price": "0.01",
+      "amount": 1,
+      "image": "images/izumrud-minecraft.png",
+      "category": 10
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 16,
+    "fields": {
+      "name": "Топаз",
+      "description": "Топаз",
+      "price": "0.01",
+      "amount": 1,
+      "image": "images/topaz-yellow.png",
+      "category": 6
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 17,
+    "fields": {
+      "name": "Цитрин",
+      "description": "Цитрин",
+      "price": "0.01",
+      "amount": 1,
+      "image": "images/citrin-yellow.webp",
+      "category": 6
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 18,
+    "fields": {
+      "name": "Янтарь",
+      "description": "Янтарь",
+      "price": "0.01",
+      "amount": 1,
+      "image": "images/yantar-yellow.jpg",
+      "category": 6
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 20,
+    "fields": {
+      "name": "Аметист",
+      "description": "Аметист",
+      "price": "0.01",
+      "amount": 1,
+      "image": "images/amethyst-purple_Owhulbh.jpg",
+      "category": 4
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 21,
+    "fields": {
+      "name": "Аметист из майнкрафта",
+      "description": "Аметист из майнкрафта",
+      "price": "0.01",
+      "amount": 1,
+      "image": "images/ametist-minecraft_165tCxu.webp",
+      "category": 10
+    }
+  }
+]

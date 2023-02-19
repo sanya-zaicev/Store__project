@@ -1,44 +1,42 @@
 {% extends 'layout/base.html' %}
 {% load static %}
 {% block css %}
-<link rel="stylesheet" href="{% static 'css/products.css' %}"> {% endblock %}
+
+<link rel="stylesheet" href="{% static 'css/categories.css' %}">
+<link rel="stylesheet" href="{% static 'css/main1.css' %}">
+
+{% endblock %}
+
 
 {% block content %}
 <div class="container">
     <div class="row">
+        {% for product in products %}
         <div class="col-sm">
             <div class="card" style="width: 18rem;">
-                <img src="{% static 'img/design.webp' %}" class="card-img-top" alt="...">
+                <div class="image">
+                    <img src="{{ product.image.url }}" width="10">
+                </div>
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h5 class="card-title">{{ product.name }}</h5>
+                    <a href="{% url 'add_product' product.id %}" class="btn btn-primary">В корзину</a>
                 </div>
             </div>
         </div>
-        <div class="col-sm">
-            <div class="card" style="width: 18rem;">
-                <img src="{% static 'img/design.webp' %}" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm">
-            <div class="card" style="width: 18rem;">
-                <img src="{% static 'img/design.webp' %}" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-        </div>
+        {% endfor %}
     </div>
+    <nav aria-label="Page navigation example">
+  <ul class="pagination">
+      <a href="{% url 'categories' %}" class="btn btn-primary active" aria-current="page">В каталог</a>
+    <li class="page-item"><a class="page-link" href="{% if products.has_previous %} {% url 'paginator' category.id products.previous_page_number %}{% else %} # {% endif %}">Предыдущая</a></li>
+      {% for page in products.paginator.page_range %}
+    <li class="page-item">
+        <a class="page-link" href="{% url 'paginator' category.id page %}">
+        {{ page }}
+        </a></li>
+     {% endfor %}
+    <li class="page-item"><a class="page-link" href="{% if products.has_next %} {% url 'paginator' category.id products.next_page_number %}{% else %} # {% endif %}">Следующая</a></li>
+  </ul>
+</nav>
 </div>
 {% endblock %}
