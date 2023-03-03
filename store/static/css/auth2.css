@@ -1,22 +1,7 @@
-body {
-    background-color: rgb(247, 244, 241);
-}
-
-nav {
-    margin-bottom: 50px;
-}
-
-.container {
-    display: flex;
-    height: 600px;
-    justify-content: center;
-    align-items: center;
-}
-
 .card {
 
     width: 400px;
-    height: 400px;
+    height: 410px;
 }
 
 .card-header {
@@ -39,8 +24,16 @@ nav {
     text-align: center;
 
 }
+.container {
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    background-color: rgb(247, 244, 241);
+}
 
-.card_footer a {
-    text-decoration: none;
-    color: gray;
+nav {
+    margin-bottom: 340px;
 }

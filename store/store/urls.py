@@ -3,13 +3,13 @@ from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path, include
 
-from products.views import index, categories
+from products.views import *
 from store import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', index, name='index'),
-    path('products/', include('products.urls')),
+    path('', MainView.as_view(), name='index'),
+    path('categories/', include('products.urls')),
     path('users/', include('users.urls'))
 ]
 
