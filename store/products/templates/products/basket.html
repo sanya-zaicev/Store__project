@@ -8,7 +8,7 @@
 
     {% if baskets %}
     <h2>Корзина</h2>
-    <h2>Всего товаров:{{ basket.total_quantity }}</h2>
+    <h2>Всего товаров:{{ baskets.total_quantity }}</h2>
     {% for basket in baskets %}
     <div class="row">
         <div class="col-sm-6 col-md-5">
@@ -42,7 +42,7 @@
     <div class="line" style="
        border-bottom: 1px solid rgb(240, 237, 237);"></div>
     <p class="float-left">Итого</p>
-    <h4 class="float-right">Общая сумма руб: {{ basket.total_sum }}</h4>
+    <h4 class="float-right">Общая сумма руб: {{ baskets.total_sum }}</h4>
     {% else %}
     <h2>Корзина пуста</h2>
     {% endif %}
